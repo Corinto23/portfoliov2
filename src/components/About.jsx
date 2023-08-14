@@ -13,21 +13,21 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
-          sapiente dolorum illo, necessitatibus error placeat recusandae
-          molestiae aperiam ipsum praesentium velit quisquam soluta voluptatum,
-          dolorem perferendis quia consequuntur assumenda! Magni numquam eius,
-          itaque, cum atque quos provident vel omnis, quam est amet? Blanditiis
-          fuga officiis, corporis aliquid ipsam laborum possimus.
+          A warm welcome to my corner of the internet. My journey began with a
+          degree in Computer Technology, and from there, I've been on a
+          rollercoaster of exciting tech adventures. Coding has my heart because
+          it's not just a job for me; it's the path to becoming an IT
+          professional. As a fast learner and adaptable developer, I thrive on
+          challenges that help me grow.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore esse
-          harum libero hic magni impedit eaque incidunt molestias, iusto totam
-          laborum odit quos delectus doloremque deleniti neque? Facilis aperiam
-          pariatur et a ipsam, dolorem qui repellat laborum nulla eveniet veniam
-          officia perferendis in quasi eaque distinctio iusto inventore
-          consequatur non?
+          Beyond the screen, you'll find me immersed in the worlds of gaming, TV
+          series, movies, and anime. Staying updated with technology is a must,
+          so I keep my ears to the ground, learning from fellow developers
+          online. Looking ahead, my vision is clear – I'm on a quest to become
+          one of the best. Thanks for stopping by and getting to know me a
+          little better.
         </p>
       </div>
     </div>
