@@ -4,7 +4,7 @@ import calculator from "../assets/images/calculator.png";
 import currencyConverter from "../assets/images/currencyConverter.png";
 import mp1 from "../assets/images/mp1.png";
 import rpsGame from "../assets/images/rpsGame.png";
-import toDolist from "../assets/images/toDolist.png";
+import toDoList from "../assets/images/toDoList.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -30,7 +30,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: toDolist,
+      src: toDoList,
     },
   ];
 
