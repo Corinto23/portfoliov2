@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Award from "./components/Award";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Portfolio />
       <Experience />
+      <Award />
       <Contact />
 
       <SocialLinks />
