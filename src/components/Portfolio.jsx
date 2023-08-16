@@ -11,26 +11,38 @@ const Portfolio = () => {
     {
       id: 1,
       src: analogClock,
+      demoLink: "https://corinto23.github.io/analogClock/",
+      codeLink: "https://github.com/Corinto23/analogClock",
     },
     {
       id: 2,
       src: calculator,
+      demoLink: "https://corinto23.github.io/calculator/",
+      codeLink: "https://github.com/Corinto23/calculator",
     },
     {
       id: 3,
       src: currencyConverter,
+      demoLink: "https://corinto23.github.io/currencyConverter/",
+      codeLink: "https://github.com/Corinto23/currencyConverter",
     },
     {
       id: 4,
       src: mp1,
+      demoLink: "https://corinto23.github.io/mini-project-1/",
+      codeLink: "https://github.com/Corinto23/mini-project-1",
     },
     {
       id: 5,
       src: rpsGame,
+      demoLink: "https://corinto23.github.io/rockPaperScissor/",
+      codeLink: "https://github.com/Corinto23/rockPaperScissor",
     },
     {
       id: 6,
       src: toDoList,
+      demoLink: "https://corinto23.github.io/toDoList/",
+      codeLink: "https://github.com/Corinto23/toDoList",
     },
   ];
 
@@ -48,20 +60,30 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, demoLink, codeLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
-              <div className="flex items-center jc">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+              <div className="flex items-center justify-center">
+                <a
+                  href={demoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                </a>
+                <a
+                  href={codeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
