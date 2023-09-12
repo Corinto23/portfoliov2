@@ -1,6 +1,6 @@
 import React from "react";
 import analogClock from "../assets/images/analogClock.png";
-import calculator from "../assets/images/calculator.png";
+import tsxone from "../assets/images/tsxone.png";
 import currencyConverter from "../assets/images/currencyConverter.png";
 import mp1 from "../assets/images/mp1.png";
 import rpsGame from "../assets/images/rpsGame.png";
@@ -10,15 +10,15 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: analogClock,
-      demoLink: "https://corinto23.github.io/analogClock/",
-      codeLink: "https://github.com/Corinto23/analogClock",
+      src: mp1,
+      demoLink: "https://corinto23.github.io/mini-project-1/",
+      codeLink: "https://github.com/Corinto23/mini-project-1",
     },
     {
       id: 2,
-      src: calculator,
-      demoLink: "https://corinto23.github.io/calculator/",
-      codeLink: "https://github.com/Corinto23/calculator",
+      src: tsxone,
+      demoLink: "https://tsxone.pages.dev/",
+      codeLink: "https://github.com/Corinto23/tsxone",
     },
     {
       id: 3,
@@ -28,9 +28,9 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: mp1,
-      demoLink: "https://corinto23.github.io/mini-project-1/",
-      codeLink: "https://github.com/Corinto23/mini-project-1",
+      src: analogClock,
+      demoLink: "https://corinto23.github.io/analogClock/",
+      codeLink: "https://github.com/Corinto23/analogClock",
     },
     {
       id: 5,
