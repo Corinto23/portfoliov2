@@ -38,12 +38,6 @@ const Portfolio = () => {
       demoLink: "https://corinto23.github.io/rockPaperScissor/",
       codeLink: "https://github.com/Corinto23/rockPaperScissor",
     },
-    {
-      id: 6,
-      src: toDoList,
-      demoLink: "https://corinto23.github.io/toDoList/",
-      codeLink: "https://github.com/Corinto23/toDoList",
-    },
   ];
 
   return (
