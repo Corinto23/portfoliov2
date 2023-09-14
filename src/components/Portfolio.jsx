@@ -26,18 +26,6 @@ const Portfolio = () => {
       demoLink: "https://corinto23.github.io/currencyConverter/",
       codeLink: "https://github.com/Corinto23/currencyConverter",
     },
-    {
-      id: 4,
-      src: analogClock,
-      demoLink: "https://corinto23.github.io/analogClock/",
-      codeLink: "https://github.com/Corinto23/analogClock",
-    },
-    {
-      id: 5,
-      src: rpsGame,
-      demoLink: "https://corinto23.github.io/rockPaperScissor/",
-      codeLink: "https://github.com/Corinto23/rockPaperScissor",
-    },
   ];
 
   return (
