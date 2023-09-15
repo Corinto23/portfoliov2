@@ -17,7 +17,6 @@ function App() {
       <Experience />
       <Award />
       <Contact />
-
       <SocialLinks />
     </div>
   );
