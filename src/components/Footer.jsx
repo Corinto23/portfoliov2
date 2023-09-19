@@ -3,6 +3,7 @@ const Footer = () => {
     <div>
       Footer
       <div>About</div>
+      <div>Links</div>
       <div>@ Corinto 2023</div>
     </div>
   );
