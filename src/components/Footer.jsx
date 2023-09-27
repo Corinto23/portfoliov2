@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div>
       Footer
-      <div>doesnt</div>
+      <div>Home</div>
       <div>About</div>
       <div>Links</div>
       <div>Contact Us</div>
