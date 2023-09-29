@@ -2,10 +2,6 @@ const Footer = () => {
   return (
     <div>
       Footer
-      <div>Home</div>
-      <div>About</div>
-      <div>Links</div>
-      <div>Contact Us</div>
       <div>FAQ</div>
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, est!
